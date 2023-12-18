@@ -121,6 +121,11 @@ navbar = dbc.Navbar(
                                         href="/cs4320",
                                         active="exact",
                                     ),
+                                    dbc.NavLink(
+                                        "CS43202",
+                                        href="/cs43202",
+                                        active="exact",
+                                    ),
                                 ],
                                 navbar=True,
                             )
